@@ -1,0 +1,11 @@
+{
+   "foldermetadata":{
+      "resource-name":{
+         "UserSample":{
+            "type":"lambda",
+            "folder":"/Config/Source/Lambda/UserSample",
+            "key":"lambda.zip"
+         }
+      }
+   }
+}
