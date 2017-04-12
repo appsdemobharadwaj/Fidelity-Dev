@@ -1,7 +1,7 @@
 {
     "Stacks": [
         {
-            "StackId": "arn:aws:cloudformation:us-east-2:214138627090:stack/apigateway23/8c4d0b20-1f7a-11e7-a46c-50a68a2708d2", 
+            "StackId": "arn:aws:cloudformation:us-east-2:214138627090:stack/apigateway8/78a09230-1f85-11e7-8e04-503f2fe38cae", 
             "Description": "Lambda and API Gateway", 
             "Parameters": [
                 {
@@ -16,15 +16,35 @@
             "Tags": [], 
             "Outputs": [
                 {
+                    "Description": "Name of S3 bucket to hold website content", 
+                    "OutputKey": "S3Bucket", 
+                    "OutputValue": "fidelityautomation"
+                }, 
+                {
+                    "Description": "Lambda Function Arn", 
+                    "OutputKey": "LambdaArn", 
+                    "OutputValue": "arn:aws:lambda:us-east-2:214138627090:function:apigateway8-Lambda-DMB8FJOFCPGR"
+                }, 
+                {
                     "OutputKey": "ApiId", 
-                    "OutputValue": "2vlmrgiv22"
+                    "OutputValue": "o8dpe0qq6i"
+                }, 
+                {
+                    "Description": "Aws API Gateway End Point URL", 
+                    "OutputKey": "AWSGatewayRestURL", 
+                    "OutputValue": "https://o8dpe0qq6i.execute-api.us-east-2.amazonaws.com/v1"
+                }, 
+                {
+                    "Description": "Name of S3 bucket to hold website content", 
+                    "OutputKey": "LambdaFunctionLocation", 
+                    "OutputValue": "https://fidelityautomation/lambda.zip"
                 }
             ], 
-            "CreationTime": "2017-04-12T12:21:25.869Z", 
+            "CreationTime": "2017-04-12T13:39:37.323Z", 
             "Capabilities": [
                 "CAPABILITY_IAM"
             ], 
-            "StackName": "apigateway23", 
+            "StackName": "apigateway8", 
             "NotificationARNs": [], 
             "StackStatus": "CREATE_COMPLETE", 
             "DisableRollback": false
