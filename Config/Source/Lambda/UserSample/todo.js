@@ -26,7 +26,7 @@ function mapUserItem(item) {
     "uid": item.uid.S,
     "email": item.email.S,
     "phone": item.phone.S,
-    "modified":"just modified"
+    "modified":"just modified by bharadwaj"
   };
 }
 
