@@ -26,7 +26,8 @@ function mapUserItem(item) {
     "uid": item.uid.S,
     "email": item.email.S,
     "phone": item.phone.S,
-    "modified":"demo message"
+    "modified":"demo message",
+    "new modified":"modified for demo"
   };
 }
 
